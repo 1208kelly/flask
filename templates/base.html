@@ -28,7 +28,7 @@
             <a class="nav-link" href="{{ url_for('contact') }}">Sample Post</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('carrers') }}">Contact</a>
+            <a class="nav-link" href="{{ url_for('careers') }}">Contact</a>
           </li>
         </ul>
       </div>
@@ -52,7 +52,7 @@
 
   <!-- Main Content -->
   <div class="container">
-        {% content block %}
+        {% block content %}
         {% endblock %}
   </div>
 
